@@ -1,0 +1,554 @@
+@media (max-width: 1300px) {
+    .footer__inner {
+        flex-wrap: wrap;
+    }
+    .footer__form {
+        max-width: 100%;
+        order: 2;
+    }
+    .footer__form input {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 1110px) {
+    .deals__items {
+        display: block;
+    }
+    .deals__item-big {
+        margin-bottom: 20px;
+        margin-right: 0px;
+        max-width: 100%;
+    }
+    .deals__item-big img {
+        height: 600px;
+        width: 100%;
+        object-position: bottom;
+    }
+    .deals__item-small {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 1090px) {
+    .deals__item-box {
+        max-width: 32%;
+        img {
+            width: 100%;
+        }
+    }
+
+    .products__items {
+        flex-wrap: wrap;
+    }
+    .products__item {
+        margin-bottom: 25px;
+        max-width: 30%;
+        img {
+            width: 100%;
+        }
+    }
+
+    .block__cart-wrap {
+        margin-left: 50px;
+        padding: 0px;
+        padding-left: 0px;
+        position: relative;
+        right: 0;
+        font-size: 0;
+    }
+    .block__cart-wrap::before {
+        left: auto;
+        right: 0;
+        width: 50px;
+        padding-top: 5px;
+        top: -14px;
+    }
+    .header {
+        margin-bottom: 25px;
+    }
+    .start-part {
+        margin-bottom: 45px;
+    }
+}
+
+@media (max-width: 1050px) {
+    .soon {
+        margin-bottom: 50px;
+    }
+    .soon__top {
+        margin-bottom: 20px;
+    }
+    .bakery__products {
+        margin-bottom: 15px;
+    }
+    .bakery__products-content {
+        max-width: 100%;
+    }
+    .bakery__item-info {
+        display: flex;
+        align-items: center;
+    }
+    .about {
+        margin-bottom: 120px;
+    }
+    .bakery__products-name {
+        margin-bottom: 15px;
+    }
+    .bakery__products-item {
+        max-width: 48%;
+        display: block;
+    }
+    .bakery__products-img {
+        margin-bottom: 7px;
+        margin-right: 0;
+        max-width: 100%;
+        min-height: 190px;
+    }
+    .about__block-info {
+        padding: 50px 20px 50px;
+    }
+    .about__block-content {
+        bottom: -65px;
+    }
+    .about__title {
+        text-shadow: 0 0 2px black;
+    }
+    .about__text {
+        text-shadow: 1px 1px 2px black;
+    }
+}
+
+@media (max-width: 990px) {
+    .products {
+        margin-bottom: 30px;
+    }
+    .block-serach {
+        margin-top: 10px;
+        order: 2;
+        width: 100%;
+    }
+    .block-search__wrap {
+        margin-right: 0px;
+        width: 100%;
+    }
+    .block-serach__input {
+        padding: 0 10px;
+        padding-right: 50px;
+        width: 100%;
+        border: 1px solid;
+        height: 42px;
+        opacity: 1;
+    }
+    .block-search__wrap:hover .block-serach__input {
+        padding: 0 10px;
+        padding-right: 50px;
+        width: 100%;
+    }
+    .header__content-inner {
+        flex-wrap: wrap;
+    }
+    .main__burger {
+        display: block;
+    }
+    .header__menu {
+        padding-top: 75px;
+        transition: all 0.8s;
+        margin: 0;
+        position: fixed;
+        top: -400%;
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+        z-index: 90;
+    }
+    .header__menu-active {
+        overflow-y: auto;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        transition: all 0.8s;
+    }
+    .header__content-list {
+        text-align: center;
+    }
+    .header__content-item {
+        display: block;
+    }
+    .block-interactivity {
+        margin-left: auto;
+        margin-right: 12px;
+        order: 1;
+    }
+    .header__content-item {
+        padding: 10px;
+    }
+    .header__content-item + .header__content-item {
+        margin-left: 0px;
+    }
+    .header__content-link {
+        display: block;
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .header__top {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 860px) {
+    .bakery__products-item {
+        margin-bottom: 13px;
+    }
+    .deals__item-box,
+    .products__item {
+        margin-bottom: 15px;
+    }
+    .why__box {
+        margin: 0 auto;
+    }
+    .title {
+        margin-bottom: 5px;
+        font-size: 32px;
+        line-height: 35px;
+    }
+    .products-block__text {
+        margin-bottom: 15px;
+        color: rgba(0, 0, 0, 0.5);
+    }
+    .text {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 800px) {
+    .soon {
+        margin-bottom: 30px;
+    }
+    .deals__item-big img {
+        height: 485px;
+    }
+    .deals__item-box {
+        max-width: 48%;
+    }
+    .start-part__title {
+        font-size: 49px;
+        line-height: 50px;
+    }
+    .start-part {
+        margin-bottom: 30px;
+        min-height: 440px;
+    }
+
+    .products__item {
+        max-width: 48%;
+    }
+    .bakery__products-one {
+        height: 479px;
+        background-position: center -200px;
+    }
+    .bakery__products-one-wrap {
+        margin-bottom: 20px;
+
+        margin-right: 0px;
+        max-width: 100%;
+    }
+    .bakery__products-items {
+        max-width: 100%;
+    }
+    .bakery__products-inner {
+        display: block;
+    }
+    .bakery__products .bakery__products-name {
+        text-align: center;
+    }
+}
+
+@media (max-width: 780px) {
+    .footer {
+        background: #c79a3f;
+    }
+    .bakery__products {
+        margin-bottom: 15px;
+    }
+    .deals {
+        margin-top: 50px;
+        margin-bottom: 15px;
+    }
+    .why {
+        margin-bottom: 30px;
+        padding: 45px 0 45px 0px;
+    }
+    .why__box {
+        padding: 45px 25px 45px 35px;
+    }
+    .about__btn-link,
+    .why__btn-link {
+        display: block;
+        text-align: center;
+    }
+    .about__block-text {
+        margin-bottom: 20px;
+    }
+    .about__block-title {
+        margin-bottom: 5px;
+    }
+    .about__block-info {
+        padding: 20px 15px 25px;
+    }
+    .about__title,
+    .about__text {
+        text-shadow: 0 0 0px transparent;
+    }
+    .about__block-content {
+        display: block;
+    }
+    .about__block-images {
+        height: 300px;
+        max-width: 100%;
+    }
+    .about__block-content {
+        margin-top: 25px;
+        position: relative;
+        bottom: 0;
+    }
+    .about {
+        padding: 0px 0 0;
+        margin-bottom: 20px;
+        background-image: none;
+    }
+    .about__top,
+    .about__text {
+        color: #000000;
+    }
+}
+
+@media (max-width: 660px) {
+    .bakery__products-one {
+        height: 479px;
+        background-position: center;
+    }
+    .about__block-title {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .about__block-text {
+        font-size: 14px;
+        line-height: 18px;
+    }
+}
+
+@media (max-width: 640px) {
+    .header__top li + li {
+        margin-left: 0px;
+    }
+
+    .block-search__wrap {
+        margin-right: 3px;
+    }
+    .block__cart-wrap {
+        margin-left: 44px;
+    }
+    .products__price {
+        font-size: 14px;
+    }
+    .block__title {
+        font-size: 15px;
+        margin-bottom: 7px;
+    }
+}
+
+@media (max-width: 620px) {
+    .why__box {
+        padding: 30px 20px 34px 25px;
+    }
+    .why__box-title {
+        margin-bottom: 10px;
+    }
+    .why__box-text {
+        margin-bottom: 18px;
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .why__box-row + .why__box-row {
+        margin-top: 7px;
+    }
+    .why__box-list {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 575px) {
+    .footer__inner {
+        display: block;
+        text-align: center;
+    }
+    .footer__title {
+        margin-right: 0;
+    }
+    .footer__form {
+        margin-bottom: 13px;
+    }
+}
+@media (max-width: 480px) {
+    .header {
+        margin-bottom: 10px;
+    }
+    .search__btn {
+        width: 19px;
+        height: 21px;
+        right: 13px;
+        background-size: contain;
+    }
+    .block-serach__input {
+        padding-right: 40px;
+        height: 38px;
+    }
+}
+
+@media (max-width: 460px) {
+    .bakery__products-one {
+        height: 405px;
+    }
+    .bakery__products-item {
+        max-width: 100%;
+    }
+    .bakery__products-img {
+        min-height: 221px;
+    }
+    .deals__item-big img,
+    .deals__item-box img {
+        height: 370px;
+    }
+    .deals__item-box {
+        margin-bottom: 20px;
+        max-width: 100%;
+    }
+    .products__item-img {
+        height: 280px;
+    }
+    .products__item img {
+        object-position: center;
+    }
+    .products {
+        margin-bottom: 10px;
+    }
+    .about__block-title {
+        font-size: 16px;
+    }
+    .about__block-text {
+        line-height: 16px;
+    }
+    .products__item {
+        max-width: 100%;
+    }
+    .products-btns__block button {
+        display: block;
+        width: 100%;
+        font-size: 20px;
+        line-height: 21px;
+    }
+    .products-btns__block button + button {
+        margin-top: 10px;
+        padding-left: 0;
+        margin-left: 0;
+        position: relative;
+    }
+    .products-btns__block {
+        margin-bottom: 25px;
+    }
+    .products-btns__block button::after {
+        display: none;
+    }
+    .products__item-img {
+        height: 360px;
+    }
+    .products__item img {
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+@media (max-width: 435px) {
+    .why__box-title {
+        font-size: 28px;
+        line-height: 28px;
+        letter-spacing: 0.2em;
+    }
+    .title {
+        margin-bottom: 5px;
+        font-size: 28px;
+        line-height: 35px;
+        letter-spacing: 0.2em;
+    }
+    .text {
+        font-size: 14px;
+    }
+    .products-block__text {
+        margin-bottom: 10px;
+    }
+    .about__block-images {
+        min-width: 100%;
+    }
+}
+
+@media (max-width: 408px) {
+    .start-part__title {
+        font-size: 46px;
+    }
+}
+
+@media (max-width: 380px) {
+    .start-part {
+        margin-bottom: 30px;
+        min-height: 400px;
+    }
+    .start-part__title {
+        font-size: 38px;
+        line-height: 41px;
+    }
+    .header .logo img {
+        max-width: 86%;
+    }
+}
+
+@media (max-width: 360px) {
+    .why {
+        padding: 30px 0 30px 0px;
+    }
+    .footer__title {
+        font-size: 33px;
+        line-height: 33px;
+    }
+    .bakery__products-name {
+        font-size: 27px;
+        line-height: 27px;
+    }
+    .bakery__products-one {
+        height: 360px;
+    }
+    .why__box-text {
+        margin-bottom: 18px;
+        font-size: 13px;
+        line-height: 15px;
+    }
+    .why__box {
+        padding: 25px 20px 25px 25px;
+    }
+    .why__box-title {
+        font-size: 23px;
+        letter-spacing: 0.1em;
+    }
+    .why__box-row {
+        font-size: 14px;
+        line-height: 14px;
+    }
+    .products__item-img,
+    .deals__item-big img,
+    .deals__item-box img {
+        height: 274px;
+    }
+    .header__top-btn {
+        font-size: 13px;
+    }
+}
